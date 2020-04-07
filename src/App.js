@@ -5,6 +5,7 @@ import './App.css';
 function App() {
     const [image, setImage] = useState('');
     const [text, setText] = useState('');
+    
       
     function getImage() {
       fetch('https://spaceimages.herokuapp.com')
